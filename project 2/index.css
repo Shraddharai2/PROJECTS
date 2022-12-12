@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&family=Dancing+Script:wght@700&family=Oleo+Script&family=Orbitron:wght@600&family=Poppins:wght@300&family=Roboto&family=Sansita+Swashed:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600&family=Dancing+Script:wght@700&family=Oleo+Script&family=Orbitron:wght@600&family=Poppins:wght@300&family=Roboto&family=Sansita+Swashed:wght@500&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    border:none;
+    
+}
+nav{
+    background-color:black;
+    color:white;
+    height:90px;
+}
+.logo{
+    height:38px;
+    width:100px;
+    margin-top:25px;
+    margin-left:100px;
+}
+.list{
+    display:flex;
+    position:relative;
+    margin-left:370px;
+    margin-top:-40px;
+    gap:60px;
+    list-style-type:none;
+    font-size:20px;
+}
+
+.button-small{
+    position:absolute;
+    margin-left:1200px;
+    margin-top:-25px;
+    padding:9px 25px 9px 25px;
+    color:white;
+    background-color:rgb(222, 32, 243);
+    font-size:15px;
+    border-radius:7px;
+}
+.line{
+    width:2px;
+    height:48px;
+    background-color:#848884;
+    position:absolute;
+    margin-left:300px;
+    margin-top:-50px;
+}
+.container{
+    height:100vh;
+    background-image:url("/assets2/bg.png");
+    background-repeat: no-repeat;
+
+}
+.hero-heading{
+    font-size:65px;
+    color:white;
+    width:720px;
+    font-family:'Alexandria', sans-serif;
+    align-items: center;
+    margin-top:88px;
+    margin-left:360px;
+
+}
+.hero-description{
+    color:white;
+    margin-left:440px;
+    font-size:22px;
+    font-weight:20;
+    font-family: 'Alexandria', sans-serif;
+
+}
+.button-large{
+    margin-left:600px;
+    margin-top:40px;
+    padding:12px 20px 12px 20px;
+    background-color:rgb(222, 32, 243);
+    border-radius:7px;
+    color:white;
+    font-family: 'Alexandria', sans-serif;
+    font-size:18px;
+}
