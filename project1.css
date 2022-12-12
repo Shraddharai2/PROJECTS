@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+  margin:0px;
+}
+nav > div > img {
+    margin-left: 100px;
+    height: 38px;
+  }
+  .list {
+    display: flex;
+    gap: 55px;
+    list-style-type: none;
+    margin-top: -35px;
+    margin-left: 470px;
+    font-weight: bold;
+    font-size:20px;
+  }
+  .button-group {
+    display: flex;
+    margin-left: 1150px;
+    margin-top: -27px;
+    gap: 4px;
+  }
+  .nav-button{
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: transparent;
+  }
+  nav {
+    margin-top: 28px;
+  }
+  
+  ul > li:hover::after {
+    content: "";
+    display: inline-block;
+    background-color: black;
+    width: 28px;
+    height: 2px;
+    margin-bottom: -5px;
+    margin-left: -28px;
+  }
+  
+  .square{
+    display:inline-block;
+    position:absolute;
+    margin-top:460px;
+    margin-left:280px;
+    z-index:-1;
+  }
+  .globe{
+    position:relative;
+    display:inline-block;
+    margin-left:780px;
+    margin-top:50px;
+   
+  }
+  .star{
+    Position:absolute;
+    display:inline-block;
+    margin-left:1400px;
+    margin-top:190px;
+    height:5px;
+    width:5px;
+  }
+  section>div>div{
+    margin-left:70px;
+  }
+  .hero-heading{
+    position:absolute;
+    display:inline-block;
+    margin-left:640px;
+    margin-top:-500px;
+    font-size:60px;
+    width:850px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  .hero-description{
+    position:absolute;
+    display:inline-block;
+    margin-left:710px;
+    margin-top:-380px;
+    width:650px;
+    font-size:18px;
+    text-align:center;
+    }
+
+    .button-email{
+      position:absolute;
+      margin-left:840px;
+      width:180px;
+      border-radius:9px;
+      margin-top:-200px;
+      height:30px;
+      background-color: transparent;
+      font-family: 'Orbitron', sans-serif;
+      font-size:15px;
+    }
+
+    .button-join{
+      position:absolute;
+      margin-top:-200px;
+      width:120px;
+      background-color: black;
+      color:white;
+      margin-left:1035px;
+      height:30px;
+      border-radius:9px;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .contact-heading, .icons{
+      margin-left:900px;
+      position:absolute;
+      margin-top:-100px;
+    }
+    .icons{
+      margin-top:0px;
+    }
+    .contact-heading{
+      margin-top:-29px;
+      margin-left:950px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:400;
+    }
